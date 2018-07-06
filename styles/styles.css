@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400|Montserrat:300,200,500,600,700,400|Ubuntu:500,300,700');
+
+#streetfighter {
+  background-image: url('../images/homs_ciudad_destrozada.jpeg');
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size:contain; */
+  /* background-attachment: fixed; */
+  background-size: cover;
+  /* width: 500px;
+  height: 500px;   */
+}
+
+.score {
+  height: 75px;
+  width: 100%;
+  background-color: white;
+
+}
+
+.main-screen {
+  
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url('../images/marvel-infinity-world7.jpeg'); */
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-game {
+  text-align: center;
+  font-size: 42px;
+  font-family: Arial, serif;
+  font-weight: 500;
+  /* font-stretch: expanded; */
+  letter-spacing: 3px;
+  color: #008CBA;
+  text-shadow: 2px 2px#008CBA;
+  width: 100%;
+  margin: 40px 0 0 0;
+}
+
+.container-images {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 0;
+  width: 100%;
+  
+  /* border: 2px solid blue; */
+}
+
+.green-hulk {
+  width: 30%;
+  height: auto;
+  /* border: 2px solid green; */
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-start-game {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 60px;
+  font-family: Arial, serif;
+  font-weight: 500;
+  color: black;
+  /* background-color: yellow; */
+  /* font-stretch: expanded; */
+  letter-spacing: 3px;
+  /* color: yellowgreen; */
+  /* border: 2px solid green; */
+}
+
+.text-image {
+  width: 10%;
+  height: auto;
+  text-align: center;
+  font-size: 42px;
+  font-family: Arial, serif;
+  font-weight: 500;
+  /* font-stretch: expanded; */
+  letter-spacing: 3px;
+  /* color: yellowgreen; */
+}
+
+
+.green-hulk img {
+  margin: 0 0 0 60px;
+  width: 80%;
+  height: auto;
+  /* border: 2px solid green; */
+}
+
+.red-hulk {
+  width: 50%;
+  height: auto;
+  /* border: 2px solid red; */
+}
+
+.red-hulk img {
+  width: 85%;
+  height: auto;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+#game-over {
+  position: fixed;
+  left: 400px;
+  top: 200px;
+  font-size: 42px;
+  font-family: Arial, serif;
+  font-weight: 500;
+  color:white;
+}
+
+#restart-game {
+  position: fixed;
+  left: 410px;
+  top: 300px;
+}
+
+#exit-game {
+  position: fixed;
+  left: 410px;
+  top: 380px;
+}
